@@ -16,7 +16,7 @@
 <form action="" method="POST">
 <div class="form-group">
 <label for="fname">Имя</label> 
-<input type="text" name="fname" class="form-control" id="fname" placeholder="Ваше имя">
+<input type="text" name="fname" class="form-control" id="fname" placeholder="Ваше имя"> <!-- name is very important -->
 </div>
 <div class="form-group">
 <label for="lname">Фамилия</label>
@@ -66,6 +66,7 @@ NULL,
 header('Location: ./table.php');
 }
 $mysqli->close ();
+echo 'It ts second commit !'
 ?>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
